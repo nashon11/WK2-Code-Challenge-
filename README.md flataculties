@@ -1,0 +1,20 @@
+# wk-2-code-challengeAUTHOR NASHON MWENDA/nashon11
+FLATACULTIES
+This is a simple web application that allows users to vote for their favorite animal from a list of five options. The animals are displayed in a table with buttons to toggle more details about each one, as well as buttons to vote for each animal.
+
+Getting Started
+To use this application, simply open the index.html file in a web browser. There are no additional dependencies or installations required.
+
+Usage
+Click on the "Details" button for each animal to toggle more information about them.
+Click on the "Vote" button for your favorite animal to submit your vote.
+Once you have voted, the "Vote" button will be disabled for all animals to prevent multiple votes.
+When you are finished, click the "Finish" button to see the animal you have voted for and reset the survey.
+Implementation Details
+The application uses JavaScript to handle user interactions and update the vote count and results. Each animal is represented by an object with properties for the name, image URL, description, and vote count.
+
+When a user clicks on the "Details" button for an animal, the application toggles the display of additional information about that animal.
+
+When a user clicks on the "Vote" button for an animal, the application increments the vote count for that animal and disables all vote buttons to prevent multiple votes.
+
+When the user clicks the "Finish" button, the application displays the animal that they voted for and resets the survey, allowing the user to vote again.
